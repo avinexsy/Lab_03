@@ -5,6 +5,6 @@ TODO: replace the empty payload with the bytes required by the lab.
 """
 import sys
 
-payload = b""
+payload = b"$(sh malware)"  
 
 sys.stdout.buffer.write(payload)
